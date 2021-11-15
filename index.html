@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 100;
+    }
+    
+    .slick-active {
+      opacity: 100;
+    }
+
+    .slick-current {
+      opacity: 100;
+    }
+  </style>
+</head>
+<body>
+<h1 class="indledning">
+  What 400+ reviews say about us</h1>
+
+  <section class="regular slider">
+    <div class="hej1">
+     
+      <img class="image" src="img/Skærmbillede 2021-11-01 kl. 12.16.20.png">
+      
+    <img class="imagestars" src="img/rating.png"> 
+ 
+     
+      <h2 class="overskrift">Navn Navnsen</h2>
+      <p class="underskrift">Virksomhedsejer</p>
+      <p class="beskrivelse">Det nye website blev lanceret i februar <br> 2018 og allerede inden for de første 6 <br> måneder var konverteringerne steget<br> mere end 150%.</p>
+    </div>
+    <div class="hej">
+    <img class="image" src="img/Skærmbillede 2021-11-01 kl. 12.16.20.png">
+    <img class="imagestars" src="img/rating.png"> 
+    <h2 class="overskrift">Navn Navnsen</h2>
+    <p class="underskrift">Virksomhedsejer</p>
+    <p class="beskrivelse">Det nye website blev lanceret i februar <br> 2018 og allerede inden for de første 6 <br> måneder var konverteringerne steget<br> mere end 150%.</p>
+    </div>
+    <div class="hej">
+      <img class="image" src="img/Skærmbillede 2021-11-01 kl. 12.16.20.png">
+      <img class="imagestars" src="img/rating.png"> 
+      <h2 class="overskrift">Navn Navnsen</h2>
+      <p class="underskrift">Virksomhedsejer</p>
+      <p class="beskrivelse">Det nye website blev lanceret i februar <br> 2018 og allerede inden for de første 6 <br> måneder var konverteringerne steget<br> mere end 150%.</p>
+    </div>
+    <div class="hej1">
+      <img class="image" src="img/Skærmbillede 2021-11-01 kl. 12.16.20.png">
+      <img class="imagestars" src="img/rating.png"> 
+      <h2 class="overskrift">Navn Navnsen</h2>
+      <p class="underskrift">Virksomhedsejer</p>
+      <p class="beskrivelse">Det nye website blev lanceret i februar <br> 2018 og allerede inden for de første 6 <br> måneder var konverteringerne steget<br> mere end 150%.</p>
+    </div>
+    <div class="hej">
+      <img class="image" src="img/Skærmbillede 2021-11-01 kl. 12.16.20.png">
+      <img class="imagestars" src="img/rating.png"> 
+      <h2 class="overskrift">Navn Navnsen</h2>
+      <p class="underskrift">Virksomhedsejer</p>
+      <p class="beskrivelse">Det nye website blev lanceret i februar <br> 2018 og allerede inden for de første 6 <br> måneder var konverteringerne steget<br> mere end 150%.</p>
+    </div>
+    <div class="hej">
+      <img class="image" src="img/Skærmbillede 2021-11-01 kl. 12.16.20.png">
+      <img class="imagestars" src="img/rating.png"> 
+      <h2 class="overskrift">Navn Navnsen</h2>
+      <p class="underskrift">Virksomhedsejer</p>
+      <p class="beskrivelse">Det nye website blev lanceret i februar <br> 2018 og allerede inden for de første 6 <br> måneder var konverteringerne steget<br> mere end 150%.</p>
+    </div>
+  </section>
+
+  
+  
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3.2,
+        slidesToScroll: 1
+      });
+     
+    });
+</script>
+
+</body>
+</html>
